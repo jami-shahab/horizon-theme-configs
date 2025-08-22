@@ -1,0 +1,73 @@
+# Horizon theme for Alacritty (TOML)
+# Based on VS Code Horizon theme by Jonathan Olaleye
+
+[colors.primary]
+background = "#1C1E26"  # Horizon background
+foreground = "#D5D8DA"  # Horizon foreground
+
+[colors.cursor]
+text = "#1C1E26"
+cursor = "#E95678"  # Horizon coral red
+
+[colors.vi_mode_cursor]
+text = "#1C1E26"
+cursor = "#B877DB"  # Horizon purple
+
+[colors.search.matches]
+foreground = "#1C1E26"
+background = "#F09483"  # Horizon salmon
+
+[colors.search.focused_match]
+foreground = "#1C1E26"
+background = "#E95678"  # Horizon coral red
+
+[colors.hints.start]
+foreground = "#1C1E26"
+background = "#FAB795"  # Horizon yellow
+
+[colors.hints.end]
+foreground = "#1C1E26"
+background = "#29D398"  # Horizon green
+
+[colors.line_indicator]
+foreground = "#1C1E26"
+background = "#B877DB"  # Horizon purple
+
+[colors.footer_bar]
+background = "#1C1E26"
+foreground = "#D5D8DA"
+
+[colors.selection]
+text = "#1C1E26"
+background = "#E95678"  # Horizon coral red
+
+[colors.normal]
+black   = "#2E303E"  # Horizon surface
+red     = "#E95678"  # Horizon coral red
+green   = "#29D398"  # Horizon green
+yellow  = "#FAB795"  # Horizon yellow
+blue    = "#26BBD9"  # Horizon blue
+magenta = "#B877DB"  # Horizon purple
+cyan    = "#59E1E3"  # Horizon cyan
+white   = "#D5D8DA"  # Horizon foreground
+
+[colors.bright]
+black   = "#6C6F93"  # Horizon muted
+red     = "#E95678"  # Horizon coral red
+green   = "#3FDAA4"  # Horizon bright green
+yellow  = "#FBC3A7"  # Horizon bright yellow
+blue    = "#3FC4DE"  # Horizon bright blue
+magenta = "#F075B5"  # Horizon bright magenta
+cyan    = "#6BE4E6"  # Horizon bright cyan
+white   = "#F5F5F5"  # Horizon bright white
+
+[colors.dim]
+black   = "#232530"  # Horizon darker surface
+red     = "#E95678"  # Horizon coral red
+green   = "#29D398"  # Horizon green
+yellow  = "#FAB795"  # Horizon yellow
+blue    = "#26BBD9"  # Horizon blue
+magenta = "#B877DB"  # Horizon purple
+cyan    = "#59E1E3"  # Horizon cyan
+white   = "#D5D8DA"  # Horizon foreground
+

@@ -1,0 +1,72 @@
+# Catppuccin Mocha theme for Alacritty (TOML)
+# Source palette: https://github.com/catppuccin/catppuccin
+
+[colors.primary]
+background = "#1e1e2e" # base
+foreground = "#cdd6f4" # text
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#f5e0dc" # rosewater
+
+[colors.vi_mode_cursor]
+text = "#1e1e2e"
+cursor = "#b4befe" # lavender
+
+[colors.search.matches]
+foreground = "#1e1e2e"
+background = "#a6e3a1" # green
+
+[colors.search.focused_match]
+foreground = "#1e1e2e"
+background = "#f38ba8" # red
+
+[colors.hints.start]
+foreground = "#1e1e2e"
+background = "#f9e2af" # yellow
+
+[colors.hints.end]
+foreground = "#1e1e2e"
+background = "#a6e3a1" # green
+
+[colors.line_indicator]
+foreground = "#1e1e2e"
+background = "#b4befe" # lavender
+
+[colors.footer_bar]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#f5e0dc" # rosewater
+
+[colors.normal]
+black   = "#45475a" # surface1
+red     = "#f38ba8" # red
+green   = "#a6e3a1" # green
+yellow  = "#f9e2af" # yellow
+blue    = "#89b4fa" # blue
+magenta = "#f5c2e7" # pink
+cyan    = "#94e2d5" # teal
+white   = "#bac2de" # subtext1
+
+[colors.bright]
+black   = "#585b70" # surface2
+red     = "#f38ba8" # red (same)
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#a6adc8" # subtext0
+
+[colors.dim]
+black   = "#313244" # surface0
+red     = "#e78284"
+green   = "#a6d189"
+yellow  = "#e5c890"
+blue    = "#8caaee"
+magenta = "#f4b8e4"
+cyan    = "#81c8be"
+white   = "#b5bfe2"

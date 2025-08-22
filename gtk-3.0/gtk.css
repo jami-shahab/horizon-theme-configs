@@ -1,0 +1,137 @@
+/* GTK CSS with Horizon theme colors */
+/* Based on VS Code Horizon theme by Jonathan Olaleye */
+
+@define-color horizon_bg #1C1E26;
+@define-color horizon_fg #D5D8DA;
+@define-color horizon_coral #E95678;
+@define-color horizon_purple #B877DB;
+@define-color horizon_salmon #F09483;
+@define-color horizon_muted #6C6F93;
+@define-color horizon_surface #2E303E;
+
+/* Main window styling */
+window {
+    background-color: @horizon_bg;
+    color: @horizon_fg;
+}
+
+/* Entry fields */
+entry {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    border: 1px solid @horizon_muted;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+entry:focus {
+    border-color: @horizon_coral;
+}
+
+/* Buttons */
+button {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    border: 1px solid @horizon_muted;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: @horizon_muted;
+}
+
+button:active {
+    background-color: @horizon_coral;
+}
+
+/* Labels */
+label {
+    color: @horizon_fg;
+}
+
+/* Tree views and lists */
+treeview {
+    background-color: @horizon_bg;
+    color: @horizon_fg;
+}
+
+treeview:selected {
+    background-color: @horizon_coral;
+    color: @horizon_bg;
+}
+
+/* Scrollbars */
+scrollbar {
+    background-color: @horizon_surface;
+}
+
+scrollbar slider {
+    background-color: @horizon_muted;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: @horizon_coral;
+}
+
+/* Menus */
+menu {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    border: 1px solid @horizon_muted;
+}
+
+menuitem {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    padding: 8px 16px;
+}
+
+menuitem:hover {
+    background-color: @horizon_coral;
+    color: @horizon_bg;
+}
+
+/* Tooltips */
+tooltip {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    border: 1px solid @horizon_muted;
+    border-radius: 4px;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background-color: @horizon_surface;
+    color: @horizon_fg;
+    padding: 8px 16px;
+}
+
+notebook tab:checked {
+    background-color: @horizon_coral;
+    color: @horizon_bg;
+}
+
+/* Progress bars */
+progressbar {
+    background-color: @horizon_surface;
+    border-radius: 4px;
+}
+
+progressbar progress {
+    background-color: @horizon_coral;
+    border-radius: 4px;
+}
+
+/* Scale sliders */
+scale slider {
+    background-color: @horizon_coral;
+    border-radius: 4px;
+}
+
+scale trough {
+    background-color: @horizon_surface;
+    border-radius: 4px;
+}
+

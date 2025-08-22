@@ -1,0 +1,100 @@
+name: Horizon Theme
+shortname: HorizonDark
+windowBg: #1C1E26 // Horizon background
+windowFg: #D5D8DA // Horizon foreground
+windowBgOver: #2E303E // Horizon surface
+windowBgRipple: #6C6F93 // Horizon muted
+windowFgOver: windowFg // Horizon foreground
+windowSubTextFg: #6C6F93 // Horizon muted
+windowSubTextFgOver: #6C6F93 // Horizon muted
+windowBoldFg: #D5D8DA // Horizon foreground
+windowBoldFgOver: #D5D8DA // Horizon foreground
+windowBgActive: #E95678 // Horizon coral
+windowFgActive: #1C1E26 // Horizon background
+windowActiveTextFg: #E95678 // Horizon coral
+windowShadowFg: #000000 // Black shadow
+windowShadowFgFallback: #2E303E // Horizon surface
+shadowFg: #00000018 // Most shadows with opacity
+slideFadeOutBg: #0000003C // Slide animation fade out
+slideFadeOutShadowFg: windowShadowFg // Slide animation shadow
+imageBg: #1C1E26 // Image background fallback
+imageBgTransparent: #1C1E26 // Image background with opacity
+activeButtonBg: windowBgActive // Default active button background
+activeButtonBgOver: #B877DB // Horizon purple
+activeButtonBgRipple: #F09483 // Horizon salmon
+activeButtonFg: windowFgActive // Default active button text
+activeButtonFgOver: activeButtonFg // Default active button text with mouse over
+activeButtonSecondaryFg: #2E303E // Default active button additional text
+activeButtonSecondaryFgOver: activeButtonSecondaryFg // Default active button additional text with mouse over
+activeLineFg: #E95678 // Default active line
+activeLineFgError: #E95678 // Default active line for error state
+lightButtonBg: windowBg // Default light button background
+lightButtonBgOver: #2E303E // Horizon surface
+lightButtonBgRipple: #6C6F93 // Horizon muted
+lightButtonFg: windowActiveTextFg // Default light button text
+lightButtonFgOver: lightButtonFg // Default light button text with mouse over
+attentionButtonFg: #E95678 // Default attention button text
+attentionButtonFgOver: #E95678 // Default attention button text with mouse over
+attentionButtonBgOver: #2E303E // Default attention button background with mouse over
+attentionButtonBgRipple: #6C6F93 // Default attention button ripple effect
+menuBg: windowBg // Default popup menu background
+menuBgOver: windowBgOver // Default popup menu item background with mouse over
+menuBgRipple: windowBgRipple // Default popup menu item ripple effect
+menuIconFg: #6C6F93 // Default popup menu item icon
+menuIconFgOver: #D5D8DA // Default popup menu item icon with mouse over
+menuSubmenuArrowFg: #D5D8DA // Default popup menu submenu arrow icon
+menuFgDisabled: #6C6F93 // Default popup menu item disabled text
+menuSeparatorFg: #2E303E // Default popup menu separator
+scrollBarBg: #E9567853 // Default scroll bar current rectangle
+scrollBarBgOver: #E956787A // Default scroll bar current rectangle with mouse over
+scrollBg: #2E303E1A // Default scroll bar background
+scrollBgOver: #2E303E2C // Default scroll bar background with mouse over
+smallCloseIconFg: #6C6F93 // Small X icon
+smallCloseIconFgOver: #D5D8DA // Small X icon with mouse over
+radialFg: windowFgActive // Default radial loader line
+radialBg: #00000056 // Default radial loader background
+placeholderFg: windowSubTextFg // Default input field placeholder when not focused
+placeholderFgActive: #D5D8DA // Default input field placeholder when focused
+inputBorderFg: #2E303E // Default input field bottom border
+filterInputBorderFg: #B877DB // Default rounded input field border when focused
+filterInputActiveBg: windowBg // Default rounded input field active background
+filterInputInactiveBg: windowBgOver // Default rounded input field inactive background
+checkboxFg: #6C6F93 // Default unchecked checkbox rounded rectangle
+botKbBg: menuBgOver // Bot keyboard button background
+botKbDownBg: menuBgRipple // Bot keyboard button ripple effect
+botKbColor: windowBoldFgOver // Bot keyboard button text
+sliderBgInactive: #2E303E // Default slider not active bar
+sliderBgActive: windowBgActive // Default slider active bar
+tooltipBg: #2E303E // Tooltip background
+tooltipFg: #D5D8DA // Tooltip text
+tooltipBorderFg: #6C6F93 // Tooltip border
+titleShadow: #00000003 // One pixel line shadow at bottom of custom window title
+titleBg: windowBgOver // Custom window title background when window is inactive
+titleBgActive: titleBg // Custom window title background when window is active
+titleButtonBg: titleBg // Custom window title minimize/maximize/restore button background when inactive
+titleButtonFg: #6C6F93 // Custom window title minimize/maximize/restore button icon when inactive
+titleButtonBgOver: #2E303E // Custom window title minimize/maximize/restore button background with mouse over when inactive
+titleButtonFgOver: #D5D8DA // Custom window title minimize/maximize/restore button icon with mouse over when inactive
+titleButtonBgActive: titleButtonBg // Custom window title minimize/maximize/restore button background when active
+titleButtonFgActive: titleButtonFg // Custom window title minimize/maximize/restore button icon when active
+titleButtonBgActiveOver: titleButtonBgOver // Custom window title minimize/maximize/restore button background with mouse over when active
+titleButtonFgActiveOver: titleButtonFgOver // Custom window title minimize/maximize/restore button icon with mouse over when active
+titleButtonCloseBg: titleButtonBg // Custom window title close button background when inactive
+titleButtonCloseFg: titleButtonFg // Custom window title close button icon when inactive
+titleButtonCloseBgOver: #E95678 // Custom window title close button background with mouse over when inactive
+titleButtonCloseFgOver: windowFgActive // Custom window title close button icon with mouse over when inactive
+titleButtonCloseBgActive: titleButtonCloseBg // Custom window title close button background when active
+titleButtonCloseFgActive: titleButtonCloseFg // Custom window title close button icon when active
+titleButtonCloseBgActiveOver: titleButtonCloseBgOver // Custom window title close button background with mouse over when active
+titleButtonCloseFgActiveOver: titleButtonCloseFgOver // Custom window title close button icon with mouse over when active
+titleFg: #6C6F93 // Custom window title text when inactive (macOS only)
+titleFgActive: #D5D8DA // Custom window title text when active (macOS only)
+trayCounterBg: #E95678 // Tray icon counter background
+trayCounterBgMute: #6C6F93 // Tray icon counter background if all unread messages are muted
+trayCounterFg: #1C1E26 // Tray icon counter text
+trayCounterBgMacInvert: #1C1E26 // Tray icon counter background when tray icon is pressed or when dark theme of macOS is used
+trayCounterFgMacInvert: #D5D8DA // Tray icon counter text when tray icon is pressed or when dark theme of macOS is used
+layerBg: #0000007F // Box and main menu background layer fade
+cancelIconFg: menuIconFg // Default for settings close icon and box search cancel icon
+cancelIconFgOver: menuIconFgOver // Default for settings close icon and box search cancel icon with mouse over
+boxBg: windowBg // Box background

@@ -1,0 +1,50 @@
+# Alacritty main config (TOML)
+# Imports Catppuccin Mocha theme and sets blur/padding
+
+[general]
+import = ["~/.config/alacritty/themes/horizon.toml"]
+
+[window]
+# Padding in pixels
+padding.x = 8
+padding.y = 10
+# macOS background blur (requires compositor support; Alacritty >=0.13)
+blur = true
+opacity = 0.95
+# Rounded corners look nice with blur
+decorations = "Full"
+dynamic_padding = true
+
+[font]
+# Reasonable defaults; adjust as you like
+normal.family = "JetBrainsMono Nerd Font Mono"
+normal.style = "Regular"
+size = 13.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[cursor]
+style.shape = "Beam"
+style.blinking = "On"
+
+[selection]
+save_to_clipboard = true
+
+# Scrollback
+[scrolling]
+history = 10000
+multiplier = 3
+
+# Mouse
+[mouse]
+hide_when_typing = true
