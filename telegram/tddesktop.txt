@@ -1,12 +1,12 @@
 name: 
 shortname: xAqkHOnVbQgiOBkN
-windowBg: #FFFFFF // white: fallback for background
-windowFg: #000000 // black: fallback for text
-windowBgOver: #F1F1F1 // light gray: fallback for background with mouse over
-windowBgRipple: #E5E5E5 // darker gray: fallback for ripple effect
+windowBg: #1C1E26 // dark: Horizon theme background
+windowFg: #D5D8DA // light: Horizon theme text color
+windowBgOver: #2E303E // dark gray: Horizon theme background with mouse over
+windowBgRipple: #6C6F93 // Horizon gray: fallback for ripple effect
 windowFgOver: windowFg // black: fallback for text with mouse over
-windowSubTextFg: #999999 // gray: fallback for additional text
-windowSubTextFgOver: #919191 // darker gray: fallback for additional text with mouse over
+windowSubTextFg: #6C6F93 // gray: Horizon theme additional text
+windowSubTextFgOver: #6C6F93 // gray: Horizon theme additional text with mouse over
 windowBoldFg: #222222 // dark gray: fallback for bold text
 windowBoldFgOver: #222222 // dark gray: fallback for bold text with mouse over
 windowBgActive: #E95678 // bright red: fallback for red filled active areas
@@ -256,7 +256,7 @@ historyScrollBarBgOver: #517C41BC // scroll bar current rectangle with mouse ove
 historyScrollBg: #517C414C // scroll bar background (adjusted)
 historyScrollBgOver: #517C416B // scroll bar background with mouse over the scroll bar (adjusted)
 msgInBg: windowBg // inbox message background
-msgInBgSelected: #C2DCF2 // inbox selected message background (and background of selected text in those messages)
+msgInBgSelected: #2E303E // inbox selected message background (and background of selected text in those messages)
 msgOutBg: #E95678 // outbox message background
 msgOutBgSelected: #B877DB // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #358CD44C // overlay which is filling the media parts of selected messages (like in selected photo message)
@@ -460,4 +460,5 @@ importantTooltipFgLink: mediaviewTextLinkFg //
 outdatedFg: #FFFFFF // 
 outdateSoonBg: #E08543 // 
 outdatedBg: #E05745 // 
-wallpaper: t.me/bg/-jI7lnO3DFABAAAA1vXcFaZP_Vo // link to cloud wallpaper
+chatBackground: #1C1E26 // Horizon theme dark background
+wallpaper: none // no wallpaper, use solid background
