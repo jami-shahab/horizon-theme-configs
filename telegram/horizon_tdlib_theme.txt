@@ -1,5 +1,5 @@
 name: Horizon Theme
-shortname: HorizonDark
+shortname: HorizonVSCSalmon
 isDark: 1
 tinted: 0
 //Fallback for undefined parameters. Available values=Day, Day Classic, Dark, Tinted Blue, Mojave
@@ -32,16 +32,16 @@ indicatorColor: #E95678
 selectMessage: #2E303E
 monospacedPre: #F09483
 monospacedCode: #E95678
-monospacedPreBubble_incoming: #F09483
-monospacedCodeBubble_incoming: #E95678
-monospacedPreBubble_outgoing: #F09483
-monospacedCodeBubble_outgoing: #E95678
+monospacedPreBubble_incoming: #000000
+monospacedCodeBubble_incoming: #000000
+monospacedPreBubble_outgoing: #000000
+monospacedCodeBubble_outgoing: #000000
 selectTextBubble_incoming: #2E303E
 selectTextBubble_outgoing: #2E303E
 bubbleBackground_incoming: #F09483
 bubbleBackground_outgoing: #F09483
-bubbleBorder_incoming: #F0948399
-bubbleBorder_outgoing: #F0948399
+bubbleBorder_incoming: #F09483
+bubbleBorder_outgoing: #F09483
 grayTextBubble_incoming: #000000
 grayTextBubble_outgoing: #000000
 grayIconBubble_incoming: #000000
@@ -63,11 +63,11 @@ waveformBackground: #6C6F93B3
 waveformForeground: #B877DB
 waveformBackgroundBubble_incoming: #6C6F9399
 waveformBackgroundBubble_outgoing: #6C6F9399
-waveformForegroundBubble_incoming: #B877DB
-waveformForegroundBubble_outgoing: #B877DB
+waveformForegroundBubble_incoming: #000000
+waveformForegroundBubble_outgoing: #000000
 webPreviewActivity: #E95678
 webPreviewActivityBubble_incoming: #E95678
-webPreviewActivityBubble_outgoing: #1C1E26
+webPreviewActivityBubble_outgoing: #000000
 redBubble_incoming: #E95678
 redBubble_outgoing: #E95678
 greenBubble_incoming: #29D398
@@ -102,8 +102,8 @@ peerAvatarBlueTop: #26BBD9
 peerAvatarBlueBottom: #26BBD9
 peerAvatarPinkTop: #F075B5
 peerAvatarPinkBottom: #F075B5
-bubbleBackgroundHighlight_incoming: #2E303E
-bubbleBackgroundHighlight_outgoing: #B877DB
+bubbleBackgroundHighlight_incoming: #FAB795
+bubbleBackgroundHighlight_outgoing: #FAB795
 chatDateActive: #1C1E26
 chatDateText: #6C6F93
 revealAction_neutral1_background: #26BBD9
@@ -125,12 +125,3 @@ chatBackground: #1C1E26
 listBackground: #2E303E
 //Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to a cloud backgound like t.me/bg/%slug%
 wallpaper: builtin
-
-// Additional Horizon accent colors for enhanced theming
-// These colors will make the theme more vibrant and obvious
-accentColor: #E95678
-secondaryAccentColor: #B877DB
-tertiaryAccentColor: #F09483
-successColor: #29D398
-infoColor: #26BBD9
-warningColor: #FAB795
