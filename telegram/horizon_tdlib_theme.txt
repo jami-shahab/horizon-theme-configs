@@ -15,14 +15,14 @@ redUI: #E95678
 greenUI: #29D398
 blackTransparent: #1C1E2699
 grayTransparent: #2E303E99
-grayUI: #2E303E
+grayUI: #1C1E26
 darkGrayText: #6C6F93
 blueText: #26BBD9
 blueSelect: #B877DB
 selectText: #2E303E
 blueFill: #B877DB
 border: #2E303E
-grayBackground: #2E303E
+grayBackground: #1C1E26
 grayForeground: #6C6F93
 grayIcon: #6C6F93
 blueIcon: #26BBD9
@@ -38,9 +38,9 @@ monospacedPreBubble_outgoing: #000000
 monospacedCodeBubble_outgoing: #000000
 selectTextBubble_incoming: #2E303E
 selectTextBubble_outgoing: #2E303E
-bubbleBackground_incoming: #F09483
+bubbleBackground_incoming: #B877DB
 bubbleBackground_outgoing: #F09483
-bubbleBorder_incoming: #F09483
+bubbleBorder_incoming: #B877DB
 bubbleBorder_outgoing: #F09483
 grayTextBubble_incoming: #000000
 grayTextBubble_outgoing: #000000
@@ -66,7 +66,7 @@ waveformBackgroundBubble_outgoing: #6C6F9399
 waveformForegroundBubble_incoming: #000000
 waveformForegroundBubble_outgoing: #000000
 webPreviewActivity: #E95678
-webPreviewActivityBubble_incoming: #E95678
+webPreviewActivityBubble_incoming: #000000
 webPreviewActivityBubble_outgoing: #000000
 redBubble_incoming: #E95678
 redBubble_outgoing: #E95678
@@ -122,6 +122,6 @@ revealAction_inactive_background: #6C6F93
 revealAction_inactive_foreground: #1C1E26
 //Parameter mostly used for minimalistic chat mode, but also works as a fallback for bubble mode if no wallpaper is installed
 chatBackground: #1C1E26
-listBackground: #2E303E
+listBackground: #1C1E26
 //Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to a cloud backgound like t.me/bg/%slug%
 wallpaper: builtin
