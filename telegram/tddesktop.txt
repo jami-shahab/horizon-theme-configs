@@ -195,17 +195,17 @@ emojiIconFgActive: windowBgActive // active emoji category icon
 stickerPanDeleteBg: #000000 // delete X button background for custom sent stickers in stickers panel (legacy)
 stickerPanDeleteFg: windowFgActive // delete X button icon for custom sent stickers in stickers panel (legacy)
 stickerPreviewBg: #FFFFFFB0 // sticker and GIF preview background (when you press and hold on a sticker)
-historyTextInFg: windowFg // inbox message text
+historyTextInFg: #000000 // inbox message text
 historyTextInFgSelected: historyTextInFg // inbox message selected text or text in a selected message
-historyTextOutFg: windowFg // outbox message text
+historyTextOutFg: #000000 // outbox message text
 historyTextOutFgSelected: historyTextOutFg // outbox message selected text or text in a selected message
-historyLinkInFg: windowActiveTextFg // inbox message link
+historyLinkInFg: #000000 // inbox message link
 historyLinkInFgSelected: historyLinkInFg // inbox message link in a selected text or message
-historyLinkOutFg: windowActiveTextFg // outbox message link
+historyLinkOutFg: #000000 // outbox message link
 historyLinkOutFgSelected: historyLinkOutFg // outbox message link in a selected text or message
-historyFileNameInFg: historyTextInFg // inbox media filename text
+historyFileNameInFg: #000000 // inbox media filename text
 historyFileNameInFgSelected: historyFileNameInFg // inbox media filename text in a selected message
-historyFileNameOutFg: historyTextOutFg // outbox media filename text
+historyFileNameOutFg: #000000 // outbox media filename text
 historyFileNameOutFgSelected: historyFileNameOutFg // outbox media filename text in a selected message
 historyOutIconFg: dialogsSentIconFg // outbox message tick / double tick icon
 historyOutIconFgSelected: #B877DB // outbox message tick / double tick icon in a selected message
@@ -255,24 +255,24 @@ historyScrollBarBg: #517C417A // scroll bar current rectangle, the bar itself in
 historyScrollBarBgOver: #517C41BC // scroll bar current rectangle with mouse over it in the chat view (adjusted)
 historyScrollBg: #517C414C // scroll bar background (adjusted)
 historyScrollBgOver: #517C416B // scroll bar background with mouse over the scroll bar (adjusted)
-msgInBg: windowBg // inbox message background
+msgInBg: #B877DB // incoming message background (Horizon purple)
 msgInBgSelected: #2E303E // dark gray: readable selected message background
-msgOutBg: #E95678 // outbox message background
+msgOutBg: #F09483 // outbox message background (Horizon salmon)
 msgOutBgSelected: #B877DB // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #358CD44C // overlay which is filling the media parts of selected messages (like in selected photo message)
 msgStickerOverlay: #358CD47F // overlay which is filling the selected sticker message
 msgInServiceFg: windowActiveTextFg // inbox message information text (like information about a forwarded message original sender)
 msgInServiceFgSelected: windowActiveTextFg // inbox selected message information text (like information about a forwarded message original sender)
-msgOutServiceFg: #FFFFFF // outbox message information text (like information about a forwarded message original sender)
-msgOutServiceFgSelected: #FFFFFF // outbox message information text (like information about a forwarded message original sender)
+msgOutServiceFg: #000000 // outbox message information text (black)
+msgOutServiceFgSelected: #000000 // outbox message information text (black)
 msgInShadow: #748EA229 // inbox message shadow (below the bubble)
 msgInShadowSelected: #548DBB29 // inbox selected message shadow (below the bubble)
 msgOutShadow: #E9567840 // outbox message shadow (below the bubble)
 msgOutShadowSelected: #B877DB40 // outbox selected message shadow (below the bubble)
-msgInDateFg: #6C6F93 // inbox message time text
-msgInDateFgSelected: #8A8DA8 // inbox selected message time text
-msgOutDateFg: #FFFFFF // outbox message time text
-msgOutDateFgSelected: #FFFFFF // outbox selected message time text
+msgInDateFg: #000000 // inbox message time text (black)
+msgInDateFgSelected: #000000 // inbox selected message time text (black)
+msgOutDateFg: #000000 // outbox message time text (black)
+msgOutDateFgSelected: #000000 // outbox selected message time text (black)
 msgServiceFg: windowFgActive // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: #517C417F // service message background (like in a service message about group title being changed) (adjusted)
 msgServiceBgSelected: #96B38BA2 // service message selected text background (like in a service message about group title being changed) (adjusted)
