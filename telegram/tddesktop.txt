@@ -195,15 +195,15 @@ emojiIconFgActive: windowBgActive // active emoji category icon
 stickerPanDeleteBg: #000000 // delete X button background for custom sent stickers in stickers panel (legacy)
 stickerPanDeleteFg: windowFgActive // delete X button icon for custom sent stickers in stickers panel (legacy)
 stickerPreviewBg: #FFFFFFB0 // sticker and GIF preview background (when you press and hold on a sticker)
-historyTextInFg: #000000 // inbox message text
+historyTextInFg: #F09483 // inbox message text (Horizon salmon)
 historyTextInFgSelected: historyTextInFg // inbox message selected text or text in a selected message
 historyTextOutFg: #000000 // outbox message text
 historyTextOutFgSelected: historyTextOutFg // outbox message selected text or text in a selected message
-historyLinkInFg: #000000 // inbox message link
+historyLinkInFg: #F09483 // inbox message link (Horizon salmon)
 historyLinkInFgSelected: historyLinkInFg // inbox message link in a selected text or message
 historyLinkOutFg: #000000 // outbox message link
 historyLinkOutFgSelected: historyLinkOutFg // outbox message link in a selected text or message
-historyFileNameInFg: #000000 // inbox media filename text
+historyFileNameInFg: #F09483 // inbox media filename text (Horizon salmon)
 historyFileNameInFgSelected: historyFileNameInFg // inbox media filename text in a selected message
 historyFileNameOutFg: #000000 // outbox media filename text
 historyFileNameOutFgSelected: historyFileNameOutFg // outbox media filename text in a selected message
@@ -261,16 +261,16 @@ msgOutBg: #F09483 // outbox message background (Horizon salmon)
 msgOutBgSelected: #1C1E26 // outbox selected message background (use Horizon background instead of purple)
 msgSelectOverlay: #358CD44C // overlay which is filling the media parts of selected messages (like in selected photo message)
 msgStickerOverlay: #358CD47F // overlay which is filling the selected sticker message
-msgInServiceFg: windowActiveTextFg // inbox message information text (like information about a forwarded message original sender)
-msgInServiceFgSelected: windowActiveTextFg // inbox selected message information text (like information about a forwarded message original sender)
+msgInServiceFg: #F09483 // inbox message information text (Horizon salmon)
+msgInServiceFgSelected: #F09483 // inbox selected message information text (Horizon salmon)
 msgOutServiceFg: #000000 // outbox message information text (black)
 msgOutServiceFgSelected: #000000 // outbox message information text (black)
 msgInShadow: #748EA229 // inbox message shadow (below the bubble)
 msgInShadowSelected: #548DBB29 // inbox selected message shadow (below the bubble)
 msgOutShadow: #E9567840 // outbox message shadow (below the bubble)
 msgOutShadowSelected: #1C1E2640 // outbox selected message shadow (replace purple with Horizon background tone)
-msgInDateFg: #000000 // inbox message time text (black)
-msgInDateFgSelected: #000000 // inbox selected message time text (black)
+msgInDateFg: #F09483 // inbox message time text (Horizon salmon)
+msgInDateFgSelected: #F09483 // inbox selected message time text (Horizon salmon)
 msgOutDateFg: #000000 // outbox message time text (black)
 msgOutDateFgSelected: #000000 // outbox selected message time text (black)
 msgServiceFg: windowFgActive // service message text (like date dividers or service message about the group title being changed)
@@ -281,7 +281,7 @@ msgInReplyBarSelColor: activeLineFg // inbox selected message reply outline
 msgOutReplyBarColor: historyOutIconFg // outbox message reply outline
 msgOutReplyBarSelColor: historyOutIconFgSelected // outbox selected message reply outline
 msgImgReplyBarColor: msgServiceFg // sticker message reply outline
-msgInMonoFg: #4E7391 // inbox message monospace text (like a message sent with `test` text)
+msgInMonoFg: #F09483 // inbox message monospace text (Horizon salmon)
 msgOutMonoFg: #FFFFFF // outbox message monospace text
 msgInMonoFgSelected: msgInMonoFg // inbox message monospace text in a selected text or message
 msgOutMonoFgSelected: msgOutMonoFg // outbox message monospace text in a selected text or message
