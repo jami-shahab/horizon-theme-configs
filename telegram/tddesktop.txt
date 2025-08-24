@@ -1,14 +1,14 @@
 name: 
 shortname: xAqkHOnVbQgiOBkN
-windowBg: #1C1E26 // dark: Horizon theme background
-windowFg: #D5D8DA // light: Horizon theme text color
-windowBgOver: #2E303E // dark gray: Horizon theme background with mouse over
-windowBgRipple: #6C6F93 // Horizon gray: fallback for ripple effect
-windowFgOver: windowFg // black: fallback for text with mouse over
-windowSubTextFg: #6C6F93 // gray: Horizon theme additional text
-windowSubTextFgOver: #6C6F93 // gray: Horizon theme additional text with mouse over
-windowBoldFg: #222222 // dark gray: fallback for bold text
-windowBoldFgOver: #222222 // dark gray: fallback for bold text with mouse over
+windowBg: #FFFFFF // white: readable background
+windowFg: #000000 // black: readable text color
+windowBgOver: #F5F5F5 // light gray: readable background with mouse over
+windowBgRipple: #E0E0E0 // light gray: readable ripple effect
+windowFgOver: #000000 // black: readable text with mouse over
+windowSubTextFg: #666666 // dark gray: readable secondary text
+windowSubTextFgOver: #555555 // darker gray: readable secondary text with mouse over
+windowBoldFg: #000000 // black: readable bold text
+windowBoldFgOver: #000000 // black: readable bold text with mouse over
 windowBgActive: #E95678 // bright red: fallback for red filled active areas
 windowFgActive: #FFFFFF // white: fallback for text on active areas
 windowActiveTextFg: #E95678 // online red: fallback for active text like online status
@@ -40,8 +40,8 @@ attentionButtonBgRipple: #F4C3C2 // default attention button ripple effect
 menuBg: windowBg // default popup menu background
 menuBgOver: windowBgOver // default popup menu item background with mouse over
 menuBgRipple: windowBgRipple // default popup menu item ripple effect
-menuIconFg: #A8A8A8 // default popup menu item icon (like main menu)
-menuIconFgOver: #999999 // default popup menu item icon with mouse over
+menuIconFg: #666666 // default popup menu item icon (like main menu)
+menuIconFgOver: #444444 // default popup menu item icon with mouse over
 menuSubmenuArrowFg: #373737 // default popup menu submenu arrow icon (like in message field context menu in case of RTL system language)
 menuFgDisabled: #CCCCCC // default popup menu item disabled text (like unavailable items in message field context menu)
 menuSeparatorFg: #F1F1F1 // default popup menu separator (like in message field context menu)
@@ -54,12 +54,12 @@ smallCloseIconFgOver: #A3A3A3 // small X icon with mouse over
 radialFg: windowFgActive // default radial loader line (like in Media Viewer when loading a photo)
 radialBg: #00000056 // default radial loader background (like in Media Viewer when loading a photo)
 placeholderFg: windowSubTextFg // default input field placeholder when field is not focused (like in phone input field when you log in)
-placeholderFgActive: #AAAAAA // default input field placeholder when field is focused
-inputBorderFg: #E0E0E0 // default input field bottom border (like in code input field when you log in and field is not focused)
+placeholderFgActive: #888888 // darker gray: readable placeholder when focused
+inputBorderFg: #CCCCCC // gray: readable input field border
 filterInputBorderFg: #54C3F3 // default rounded input field border (like in chats list search field when field is focused)
 filterInputActiveBg: windowBg // default rounded input field active background (like in chats list search field when field is focused)
 filterInputInactiveBg: windowBgOver // default rounded input field inactive background (like in chats list search field when field is inactive)
-checkboxFg: #B3B3B3 // default unchecked checkbox rounded rectangle
+checkboxFg: #888888 // default unchecked checkbox rounded rectangle
 botKbBg: menuBgOver // bot keyboard button background
 botKbDownBg: menuBgRipple // bot keyboard button ripple effect
 botKbColor: windowBoldFgOver // bot keyboard button text
@@ -256,23 +256,23 @@ historyScrollBarBgOver: #517C41BC // scroll bar current rectangle with mouse ove
 historyScrollBg: #517C414C // scroll bar background (adjusted)
 historyScrollBgOver: #517C416B // scroll bar background with mouse over the scroll bar (adjusted)
 msgInBg: windowBg // inbox message background
-msgInBgSelected: #2E303E // inbox selected message background (and background of selected text in those messages)
+msgInBgSelected: #E8F4FD // light blue: readable selected message background
 msgOutBg: #E95678 // outbox message background
 msgOutBgSelected: #B877DB // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #358CD44C // overlay which is filling the media parts of selected messages (like in selected photo message)
 msgStickerOverlay: #358CD47F // overlay which is filling the selected sticker message
 msgInServiceFg: windowActiveTextFg // inbox message information text (like information about a forwarded message original sender)
 msgInServiceFgSelected: windowActiveTextFg // inbox selected message information text (like information about a forwarded message original sender)
-msgOutServiceFg: #F09483 // outbox message information text (like information about a forwarded message original sender)
-msgOutServiceFgSelected: #F09483 // outbox message information text (like information about a forwarded message original sender)
+msgOutServiceFg: #FFFFFF // outbox message information text (like information about a forwarded message original sender)
+msgOutServiceFgSelected: #FFFFFF // outbox message information text (like information about a forwarded message original sender)
 msgInShadow: #748EA229 // inbox message shadow (below the bubble)
 msgInShadowSelected: #548DBB29 // inbox selected message shadow (below the bubble)
 msgOutShadow: #E9567840 // outbox message shadow (below the bubble)
 msgOutShadowSelected: #B877DB40 // outbox selected message shadow (below the bubble)
-msgInDateFg: #A0ACB6 // inbox message time text
-msgInDateFgSelected: #6A9CC5 // inbox selected message time text
-msgOutDateFg: #F09483 // outbox message time text
-msgOutDateFgSelected: #F09483 // outbox selected message time text
+msgInDateFg: #888888 // inbox message time text
+msgInDateFgSelected: #666666 // inbox selected message time text
+msgOutDateFg: #FFFFFF // outbox message time text
+msgOutDateFgSelected: #FFFFFF // outbox selected message time text
 msgServiceFg: windowFgActive // service message text (like date dividers or service message about the group title being changed)
 msgServiceBg: #517C417F // service message background (like in a service message about group title being changed) (adjusted)
 msgServiceBgSelected: #96B38BA2 // service message selected text background (like in a service message about group title being changed) (adjusted)
@@ -282,7 +282,7 @@ msgOutReplyBarColor: historyOutIconFg // outbox message reply outline
 msgOutReplyBarSelColor: historyOutIconFgSelected // outbox selected message reply outline
 msgImgReplyBarColor: msgServiceFg // sticker message reply outline
 msgInMonoFg: #4E7391 // inbox message monospace text (like a message sent with `test` text)
-msgOutMonoFg: #F09483 // outbox message monospace text
+msgOutMonoFg: #FFFFFF // outbox message monospace text
 msgInMonoFgSelected: msgInMonoFg // inbox message monospace text in a selected text or message
 msgOutMonoFgSelected: msgOutMonoFg // outbox message monospace text in a selected text or message
 msgDateImgFg: msgServiceFg // media message time text (like time text in a sent photo)
@@ -291,8 +291,8 @@ msgDateImgBgOver: #00000074 // media message download icon circle background wit
 msgDateImgBgSelected: #1C4A7187 // selected media message time bubble background
 msgFileThumbLinkInFg: lightButtonFg // inbox media file message with thumbnail download / open with button text
 msgFileThumbLinkInFgSelected: lightButtonFgOver // inbox selected media file message with thumbnail download / open with button text
-msgFileThumbLinkOutFg: #F09483 // outbox media file message with thumbnail download / open with button text
-msgFileThumbLinkOutFgSelected: #B877DB // outbox selected media file message with thumbnail download / open with button text
+msgFileThumbLinkOutFg: #FFFFFF // outbox media file message with thumbnail download / open with button text
+msgFileThumbLinkOutFgSelected: #FFFFFF // outbox selected media file message with thumbnail download / open with button text
 msgFileInBg: windowBgActive // inbox audio file download circle background
 msgFileInBgOver: #4EADE3 // inbox audio file download circle background with mouse over
 msgFileInBgSelected: #51A3D3 // inbox selected audio file download circle background
@@ -460,5 +460,5 @@ importantTooltipFgLink: mediaviewTextLinkFg //
 outdatedFg: #FFFFFF // 
 outdateSoonBg: #E08543 // 
 outdatedBg: #E05745 // 
-chatBackground: #1C1E26 // Horizon theme dark background
+chatBackground: #FFFFFF // white: readable chat background
 wallpaper: none // no wallpaper, use solid background
